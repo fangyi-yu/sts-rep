@@ -1,0 +1,12 @@
+sinafinance: # 从新浪获取数据的一些配置
+  max-number: 100 #一次最多获取多少个公司的股票信息
+  stock-url: http://hq.sinajs.cn/list= #新浪金融获取股票信息地址
+  stock-code-prefixs: #上市公式代码前缀
+    - sh600
+    - sh601
+    - sh603
+    - sh688
+    - sz300
+    - sz000
+    - sz001
+    - sz002
